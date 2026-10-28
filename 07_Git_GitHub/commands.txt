@@ -1,0 +1,35 @@
+Q7: CREATE LOCAL GIT REPOSITORY AND UPLOAD TO GITHUB
+
+1. Open terminal in your project folder.
+
+2. Set your name and email (one-time setup):
+git config --global user.name "Your Name"
+git config --global user.email "you@example.com"
+
+3. Create local repository:
+git init
+
+4. Add files:
+git add .
+
+5. Save files in Git:
+git commit -m "First commit"
+
+6. Create an empty repository on GitHub.
+
+7. Connect local repository to GitHub:
+git remote add origin https://github.com/YOUR-USERNAME/YOUR-REPOSITORY.git
+
+8. Rename branch:
+git branch -M main
+
+9. Upload files:
+git push -u origin main
+
+For future changes:
+git add .
+git commit -m "Updated files"
+git push
+
+NOTE:
+Replace the GitHub username and repository name with your own.

@@ -1,0 +1,11 @@
+{
+  "name": "student-api",
+  "version": "1.0.0",
+  "description": "Simple Student REST API for practical questions 10, 11 and 12",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "dependencies": {
+    "express": "^4.21.1",
+    "mongoose": "^8.8.1"
+  }
+}
